@@ -82,7 +82,7 @@ bot-server/
                           ↓
               ┌───────────────────────────┐
               │   Ticketing Server        │
-              │   (매치 스케줄러)           │
+              │   (매치 스케줄러)          │
               └───────────────────────────┘
                           │
                           │ 1) HTTP POST /matches/{matchId}/bots
@@ -106,7 +106,7 @@ bot-server/
     │(공연장  │                │    대기 상태        │
     │ 데이터) │                │                    │
     └────────┘                ↓                    │
-                    [대기 중 봇들]                   │
+                    [대기 중 봇들]                  │
                               │                    │
                               └────────────────────┘
                               │
@@ -120,7 +120,7 @@ bot-server/
               │  • GET /captcha/validate/bot  │
               │    (캡챠 검증)                 │
               │  • GET /sections/.../status   │
-              │    (좌석 상태 조회)             │
+              │    (좌석 상태 조회)            │
               │  • POST /hold                 │
               │    (좌석 선점)                 │
               │  • POST /seats/confirm        │
